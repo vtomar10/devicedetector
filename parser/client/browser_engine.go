@@ -3,7 +3,7 @@ package client
 import (
 	"path/filepath"
 
-	. "github.com/gamebtc/devicedetector/parser"
+	. "github.com/vtomar10/devicedetector/parser"
 )
 
 // Known browser engines mapped to their internal short codes
