@@ -10,6 +10,7 @@ import (
 	. "github.com/vtomar10/devicedetector/parser"
 	"github.com/vtomar10/devicedetector/parser/client"
 	"github.com/vtomar10/devicedetector/parser/device"
+	_ "github.com/vtomar10/devicedetector/regexes"
 )
 
 const UNKNOWN = "UNK"
@@ -267,4 +268,3 @@ func (d *DeviceDetector) Parse(ua string) *DeviceInfo {
 
 	return info
 }
-
