@@ -11,6 +11,8 @@ import (
 	"github.com/vtomar10/devicedetector/parser/client"
 	"github.com/vtomar10/devicedetector/parser/device"
 	_ "github.com/vtomar10/devicedetector/regexes"
+	_ "github.com/vtomar10/devicedetector/regexes/client"
+	_ "github.com/vtomar10/devicedetector/regexes/device"
 )
 
 const UNKNOWN = "UNK"
